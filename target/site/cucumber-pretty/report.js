@@ -66,28 +66,28 @@ formatter.match({
   "location": "LoginStepDep.open(String)"
 });
 formatter.result({
-  "duration": 6022404400,
+  "duration": 1276637900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.click_Signin_Link()"
 });
 formatter.result({
-  "duration": 213700000,
+  "duration": 485611700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.click_Signin_Button()"
 });
 formatter.result({
-  "duration": 4733224600,
+  "duration": 1989893500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.enter_Email_and_Password()"
 });
 formatter.result({
-  "duration": 276411800,
+  "duration": 430733500,
   "status": "passed"
 });
 formatter.match({
@@ -100,14 +100,14 @@ formatter.match({
   "location": "LoginStepDep.click_Signin_Button(int)"
 });
 formatter.result({
-  "duration": 192439500,
+  "duration": 203238700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.verify_User_Login_Successfully()"
 });
 formatter.result({
-  "duration": 3404333900,
+  "duration": 3222580800,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,28 +154,29 @@ formatter.match({
   "location": "LoginStepDep.open(String)"
 });
 formatter.result({
-  "duration": 1627595200,
+  "duration": 1201519000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.Enter_product_in_search_field()"
 });
 formatter.result({
-  "duration": 109514400,
+  "duration": 96620200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.Click_on_Search_button()"
 });
 formatter.result({
-  "duration": 5184385200,
+  "duration": 467895700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDep.Verify_Search_result_diplay()"
 });
 formatter.result({
-  "duration": 2187054200,
-  "status": "passed"
+  "duration": 14289532900,
+  "error_message": "java.lang.NullPointerException: Cannot invoke \"Object.getClass()\" because \"obj\" is null\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:557)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.PageAction.qa.LoginPageAction.VerifySearchresultdiplay(LoginPageAction.java:54)\r\n\tat StepDef.LoginStepDep.Verify_Search_result_diplay(LoginStepDep.java:52)\r\n\tat ✽.Then Verify Search result diplay(Login.feature:23)\r\n",
+  "status": "failed"
 });
 });
