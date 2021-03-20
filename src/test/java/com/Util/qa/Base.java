@@ -48,7 +48,7 @@ public class Base {
 		
 		if(browsername.equalsIgnoreCase("Chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\NewDriver\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Webdriver2\\chromedriver.exe" );
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(Utiliuty.implicitly_Wait, TimeUnit.SECONDS);

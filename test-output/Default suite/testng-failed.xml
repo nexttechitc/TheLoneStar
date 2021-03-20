@@ -8,7 +8,7 @@
           <include name="Setup"/>
           <include name="teardown"/>
           <include name="setUpClass"/>
-          <include name="feature"/>
+          <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.TestRunnnner.qa.TestRnnuer -->
