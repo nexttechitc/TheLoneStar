@@ -10,7 +10,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = {"src/test/recources/Featurs"} , 
 format = {"json:target/cucumber.json", "html:target/site/cucumber-pretty"},
-glue = "StepDef",tags= {"@Tanvir"})
+glue = "StepDef",tags= {"@Jahan"})
 
 
 public class TestRnnuer extends AbstractTestNGCucumberTests {

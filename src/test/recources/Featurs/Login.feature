@@ -3,7 +3,7 @@ Feature: Login
 
 # Tag - If we like to run any specific TC
 
-@Tanvir
+@Jahan
 Scenario: Verify User Login Successfully
 
 Given Open "<URL>"
@@ -14,7 +14,7 @@ Then Click Signin2 Button
 Then Verify User Login Successfully
 
 
-@Tanvir
+@Jahan
 Scenario: Verify search result
 
 Given Open "<URL>"
